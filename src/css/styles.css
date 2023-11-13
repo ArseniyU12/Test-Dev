@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.body {
+  max-width: 1380px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 52px 30px 73px 30px;
+  background: #f6f7f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  padding-bottom: 20px;
+}
+.header__top-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.header__top-home {
+  margin-right: 14px;
+  position: relative;
+  top: 1px;
+}
+.header__top-play {
+  margin-right: 8px;
+}
+.header__top-text {
+  color: #999;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__top-title {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+.header__top-subtitle {
+  color: #999;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.header__top {
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  padding-bottom: 27.5px;
+}
+.buttons .active_btn {
+  background-color: #b2bac7;
+}
+.buttons .active_btn::after {
+  content: url("/icons/light-trash.svg");
+}
+.buttons__list {
+  display: flex;
+  align-items: center;
+}
+.buttons__wrapper {
+  display: flex;
+}
+.buttons__btn {
+  display: flex;
+  margin-right: 20px;
+  padding: 9px 14px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  background: #e9ebef;
+  color: #303031;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.buttons__btn::after {
+  content: url("/icons/trash.svg");
+  margin-top: 1px;
+  margin-left: 7px;
+}
+.buttons__btn {
+  display: flex;
+  margin-right: 20px;
+  padding: 9px 14px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  background: #e9ebef;
+  color: #303031;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.buttons__btn::after {
+  content: url("/icons/trash.svg");
+  margin-top: 2px;
+  margin-left: 7px;
+}
+.buttons__btn {
+  display: flex;
+  padding: 9px 14px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  background: #e9ebef;
+  color: #303031;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.buttons__btn::after {
+  content: url("/icons/trash.svg");
+  margin-top: 2px;
+  margin-left: 7px;
+}
+.buttons__firth-btn-wrapper {
+  margin-left: auto;
+}
+.buttons__firth-btn {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #405eff;
+  background: #fff;
+  width: 200px;
+  height: 18px;
+  padding: 9px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #405eff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  transition: all 0.3s ease-in;
+}
+.buttons__firth-btn:hover {
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #405eff;
+  background: #405eff;
+  transition: all 0.3s ease-in;
+}
+.buttons__active {
+  background: #405eff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.cards__text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0px 20px;
+  margin-left: 45px;
+}
+.cards__text-second-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0px 70px;
+  margin-left: 430px;
+}
+.cards_switch-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 20px;
+}
+.cards__text {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.cards__text2 {
+  margin-left: 39px;
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.cards__text3 {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.cards__text4 {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.cards__text5 {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 5px;
+  line-height: 130%;
+}
+.cards__text6 {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.cards__switch {
+  display: inline-block;
+  position: relative;
+  width: 43px;
+  height: 16px;
+  border-radius: 15px;
+  background-color: #405eff;
+  opacity: 0.8;
+}
+.cards__switch-input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.cards__switch-slider {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 34px;
+  opacity: 4;
+  background-color: #405eff;
+}
+.cards__switch-slider::before {
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  left: -7px;
+  top: -4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  background-color: blue;
+}
+
+.product::-webkit-scrollbar {
+  width: 7px;
+  height: 150px;
+}
+
+.product::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #e9ebef;
+  padding-left: 3px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px 0px;
+  padding: 0 3px;
+  width: 1310px;
+  height: 500px;
+  overflow: auto;
+}
+.product__cards-wrapper {
+  height: 110px;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  background: #fff;
+}
+.product__price-wrapper {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0px;
+  margin-right: 20px;
+}
+.product__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 20px;
+}
+.product__text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 20px;
+}
+.product__code-number {
+  color: #303031;
+  width: 80px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.product__name {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.product__stock {
+  width: 80px;
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.product__qty {
+  width: 80px;
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  margin-right: 8px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.product__price {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+.product__second-price {
+  color: #303031;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.product__btn {
+  color: #405eff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  display: flex;
+  text-align: center;
+  width: 88px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #405eff;
+  background: #fff;
+  transition: all 0.3s ease-in;
+}
+.product__btn:hover {
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #405eff;
+  background: #405eff;
+  transition: all 0.3s ease-in;
+}
+
+.end {
+  display: flex;
+  padding-top: 20px;
+}
+.end__back-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+.end__buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 0px 20px;
+}
+.end__back-btn {
+  color: #405eff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.end__btn {
+  display: flex;
+  width: 300px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #405eff;
+  background: #fff;
+  color: #405eff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  transition: all 0.3s ease-in;
+}
+.end__btn:hover {
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #405eff;
+  background: #405eff;
+  transition: all 0.3 ease-in;
+}/*# sourceMappingURL=styles.css.map */
